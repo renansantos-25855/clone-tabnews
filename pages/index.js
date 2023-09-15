@@ -2,17 +2,16 @@ function Home() {
   return (
     <div>
       <h1>
-        Olá minha irmã ! Existem momentos da nossa vida que são mesmo confusos e
-        nos sentimos perdidos.
+        O propósito deste site é aprender e sentir genuinamente a sensação de
+        estar gerando valor e impacto na vida das pessoas.
       </h1>
-      <h2>
-        Mas não desiste, tá?! São nesses momentos que as decisões importantes
-        são tomadas e que temos
-      </h2>
-      <h2>a oportunidade de mudar o rumo de nossas vidas.</h2>
       <h1>
-        E por fim, te convido a passar por aqui de vez em quando pra você ver a
-        evolução deste site!! Vai ser massa demais...
+        Os usuarios que acessarem este endereço se sentirão confortados por
+        finalmente encontrarem uma aplicação que os levem a sério
+      </h1>
+      <h1>
+        e que de fato se dedique a solucionar aquilo que se propõe. Vamos seguir
+        evoluindo e buscando alcançar este objetivo.
       </h1>
     </div>
   );
