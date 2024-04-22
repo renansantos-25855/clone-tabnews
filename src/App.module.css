@@ -1,0 +1,101 @@
+.wrapper {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 60%;
+  padding-bottom: 1rem;
+
+  background: #1f1f1f42;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #2020204b;
+}
+
+.logo img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fdfdfdb6;
+
+  padding-bottom: 6rem;
+
+  animation-name: breathing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes breathing {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+h2:hover {
+  color: #fdfdfd;
+  cursor: default;
+}
+
+.socialMedias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socialMedias div {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialMedias span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fdfdfdb6;
+  cursor: default;
+}
+
+.socialMedias svg {
+  font-weight: bold;
+  color: #fdfdfd4d;
+
+  cursor: pointer;
+}
+
+.socialMedias span:hover,
+svg:hover {
+  color: #fdfdfd;
+}

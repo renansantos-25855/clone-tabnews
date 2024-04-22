@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://st2.depositphotos.com/1001335/9340/i/450/depositphotos_93401314-stock-photo-concept-of-construction-and-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, input, button, textarea{
+    font-family: 'Roboto', sans-serif;
+}
